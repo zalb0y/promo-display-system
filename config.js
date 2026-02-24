@@ -1,5 +1,5 @@
 // TODO: Masukkan URL Web App Apps Script setelah di-deploy
-const APPS_SCRIPT_URL = "URL_WEB_APP_ANDA_DISINI";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyZ6FLiQ1HPMFmHuQp_3Wem0CpsW3ULRtBgBGyGGPiI-RVdNc1Zz5ibh_NAldp-jC2pTA/exec";
 
 const db = {
     stores: {
@@ -114,3 +114,4 @@ els.form.addEventListener('submit', async (e) => {
         els.loader.style.display = 'none';
     }
 });
+
